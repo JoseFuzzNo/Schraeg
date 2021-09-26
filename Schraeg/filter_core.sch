@@ -130,45 +130,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6050 5100 50  0001 C CNN
 	4    6000 4900
 	1    0    0    1   
 $EndComp
-$Comp
-L Schraeg-rescue:V2164-v2164 U?
-U 3 1 5D579004
-P 4900 3200
-AR Path="/5D579004" Ref="U?"  Part="1" 
-AR Path="/5D5752FE/5D579004" Ref="U3"  Part="3" 
-F 0 "U3" H 4925 2978 50  0000 C CNN
-F 1 "V2164" H 4925 2887 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	3    4900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Schraeg-rescue:V2164-v2164 U?
-U 4 1 5D57900B
-P 6900 3300
-AR Path="/5D57900B" Ref="U?"  Part="1" 
-AR Path="/5D5752FE/5D57900B" Ref="U3"  Part="4" 
-F 0 "U3" H 6925 3078 50  0000 C CNN
-F 1 "V2164" H 6925 2987 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6900 3300 50  0001 C CNN
-F 3 "" H 6900 3300 50  0001 C CNN
-	4    6900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Schraeg-rescue:V2164-v2164 U?
-U 2 1 5D579012
-P 4100 4700
-AR Path="/5D579012" Ref="U?"  Part="1" 
-AR Path="/5D5752FE/5D579012" Ref="U3"  Part="2" 
-F 0 "U3" H 4125 4478 50  0000 C CNN
-F 1 "V2164" H 4125 4387 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 4700 50  0001 C CNN
-F 3 "" H 4100 4700 50  0001 C CNN
-	2    4100 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 3300 3000 3300
 Wire Wire Line
@@ -429,7 +390,6 @@ Wire Wire Line
 	7250 3000 7450 3000
 Wire Wire Line
 	7650 3000 7900 3000
-Connection ~ 7250 3300
 Wire Wire Line
 	7850 3400 7900 3400
 Wire Wire Line
@@ -452,8 +412,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 2600 7000 2600
 Connection ~ 6500 3300
-Wire Wire Line
-	6500 3300 6600 3300
 Wire Wire Line
 	7300 2600 7900 2600
 Wire Wire Line
@@ -664,47 +622,47 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5D579123
-P 3700 4850
+P 3650 4850
 AR Path="/5D579123" Ref="R?"  Part="1" 
 AR Path="/5D5752FE/5D579123" Ref="R30"  Part="1" 
-F 0 "R30" H 3630 4804 50  0000 R CNN
-F 1 "470R" H 3630 4895 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4850 50  0001 C CNN
-F 3 "~" H 3700 4850 50  0001 C CNN
-	1    3700 4850
+F 0 "R30" H 3580 4804 50  0000 R CNN
+F 1 "470R" H 3580 4895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 4850 50  0001 C CNN
+F 3 "~" H 3650 4850 50  0001 C CNN
+	1    3650 4850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D57912A
-P 3700 5100
+P 3650 5100
 AR Path="/5D57912A" Ref="C?"  Part="1" 
 AR Path="/5D5752FE/5D57912A" Ref="C7"  Part="1" 
-F 0 "C7" H 3792 5146 50  0000 L CNN
-F 1 "560pF" H 3792 5055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3700 5100 50  0001 C CNN
-F 3 "~" H 3700 5100 50  0001 C CNN
-	1    3700 5100
+F 0 "C7" H 3742 5146 50  0000 L CNN
+F 1 "560pF" H 3742 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3650 5100 50  0001 C CNN
+F 3 "~" H 3650 5100 50  0001 C CNN
+	1    3650 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D579131
-P 3700 5200
+P 3650 5200
 AR Path="/5D579131" Ref="#PWR?"  Part="1" 
 AR Path="/5D5752FE/5D579131" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 3700 4950 50  0001 C CNN
-F 1 "GND" H 3705 5027 50  0000 C CNN
-F 2 "" H 3700 5200 50  0001 C CNN
-F 3 "" H 3700 5200 50  0001 C CNN
-	1    3700 5200
+F 0 "#PWR021" H 3650 4950 50  0001 C CNN
+F 1 "GND" H 3655 5027 50  0000 C CNN
+F 2 "" H 3650 5200 50  0001 C CNN
+F 3 "" H 3650 5200 50  0001 C CNN
+	1    3650 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4700 3700 4700
-Connection ~ 3700 4700
+	3600 4700 3650 4700
+Connection ~ 3650 4700
 Wire Wire Line
-	3700 4700 3800 4700
+	3650 4700 3850 4700
 Wire Wire Line
 	4450 4700 4500 4700
 Wire Wire Line
@@ -906,11 +864,11 @@ Text HLabel 7200 1500 2    50   Output ~ 0
 BP_OUT
 Text HLabel 9100 3300 2    50   Output ~ 0
 LP_OUT
-Text HLabel 4800 2950 1    50   Input ~ 0
+Text HLabel 4850 2900 1    50   Input ~ 0
 FREQ_CV
-Text HLabel 6800 3050 1    50   Input ~ 0
+Text HLabel 6850 3000 1    50   Input ~ 0
 FREQ_CV
-Text HLabel 4000 4450 1    50   Input ~ 0
+Text HLabel 4050 4400 1    50   Input ~ 0
 RES_CV
 Wire Wire Line
 	5700 5000 5600 5000
@@ -942,4 +900,42 @@ Connection ~ 3800 2850
 Wire Wire Line
 	5900 1400 5900 2500
 Connection ~ 5900 2500
+$Comp
+L Schraeg:V2164 U3
+U 2 1 617BFA4E
+P 4150 4700
+F 0 "U3" H 4150 4975 50  0000 C CNN
+F 1 "V2164" H 4150 5066 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4050 4800 50  0001 C CNN
+F 3 "" H 4050 4800 50  0001 C CNN
+	2    4150 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Schraeg:V2164 U3
+U 3 1 617F8AC5
+P 4950 3200
+F 0 "U3" H 4950 3475 50  0000 C CNN
+F 1 "V2164" H 4950 3566 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4850 3300 50  0001 C CNN
+F 3 "" H 4850 3300 50  0001 C CNN
+	3    4950 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4650 3200 4600 3200
+$Comp
+L Schraeg:V2164 U3
+U 4 1 61820A73
+P 6950 3300
+F 0 "U3" H 6950 3575 50  0000 C CNN
+F 1 "V2164" H 6950 3666 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6850 3400 50  0001 C CNN
+F 3 "" H 6850 3400 50  0001 C CNN
+	4    6950 3300
+	1    0    0    1   
+$EndComp
+Connection ~ 7250 3300
+Wire Wire Line
+	6500 3300 6650 3300
 $EndSCHEMATC

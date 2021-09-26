@@ -426,19 +426,6 @@ $EndComp
 Wire Wire Line
 	4900 2650 5100 2650
 $Comp
-L Schraeg-rescue:V2164-v2164-Schraeg-rescue U3
-U 1 1 5D5C12B5
-P 4700 3950
-AR Path="/5D5C12B5" Ref="U3"  Part="1" 
-AR Path="/5D5752FE/5D5C12B5" Ref="U?"  Part="1" 
-F 0 "U3" H 4725 3635 50  0000 C CNN
-F 1 "V2164" H 4725 3726 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4700 3950 50  0001 C CNN
-F 3 "" H 4700 3950 50  0001 C CNN
-	1    4700 3950
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R15
 U 1 1 5D5C12BC
 P 4300 4100
@@ -481,7 +468,7 @@ Wire Wire Line
 	4200 3950 4300 3950
 Connection ~ 4300 3950
 Wire Wire Line
-	4300 3950 4400 3950
+	4300 3950 4500 3950
 $Comp
 L Device:R R12
 U 1 1 5D5C55C4
@@ -537,8 +524,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3300 5100 2950
 Wire Wire Line
-	5050 3950 5100 3950
-Wire Wire Line
 	5100 3950 5100 3300
 Connection ~ 5100 3300
 $Comp
@@ -576,9 +561,7 @@ F 3 "" H 5200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4200 6000 4200
-Wire Wire Line
-	6000 4200 6000 3400
+	6000 4250 6000 3400
 Connection ~ 6000 3400
 Wire Wire Line
 	6000 3400 6400 3400
@@ -1323,4 +1306,17 @@ Wire Wire Line
 Wire Wire Line
 	1700 6750 1650 6750
 Connection ~ 1700 6950
+$Comp
+L Schraeg:V2164 U3
+U 1 1 6177084C
+P 4800 3950
+F 0 "U3" H 4800 4318 50  0000 C CNN
+F 1 "V2164" H 4800 4227 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4700 4050 50  0001 C CNN
+F 3 "" H 4700 4050 50  0001 C CNN
+	1    4800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4250 6000 4250
 $EndSCHEMATC

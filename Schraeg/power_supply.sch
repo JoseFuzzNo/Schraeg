@@ -644,19 +644,6 @@ F 3 "~" H 6850 1750 50  0001 C CNN
 	1    6850 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Schraeg-rescue:V2164-v2164-Schraeg-rescue U3
-U 5 1 5D4D2924
-P 4150 1550
-AR Path="/5D4D2924" Ref="U3"  Part="5" 
-AR Path="/5DA7C710/5D4D2924" Ref="U3"  Part="5" 
-F 0 "U3" H 4256 1925 50  0000 C CNN
-F 1 "V2164" H 4256 1834 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4150 1550 50  0001 C CNN
-F 3 "" H 4150 1550 50  0001 C CNN
-	5    4150 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 1200 3850 1200
 Wire Wire Line
@@ -871,5 +858,16 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1800 1500 50 
 F 3 "~" H 1800 1500 50  0001 C CNN
 	1    1800 1500
 	1    0    0    1   
+$EndComp
+$Comp
+L Schraeg:V2164 U3
+U 5 1 618650C5
+P 4200 1550
+F 0 "U3" H 4200 1300 50  0000 C CNN
+F 1 "V2164" H 4200 1800 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 1650 50  0001 C CNN
+F 3 "" H 4100 1650 50  0001 C CNN
+	5    4200 1550
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
