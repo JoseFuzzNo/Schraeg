@@ -426,7 +426,7 @@ $EndComp
 Wire Wire Line
 	4900 2650 5100 2650
 $Comp
-L Schraeg-rescue:V2164-v2164 U3
+L Schraeg-rescue:V2164-v2164-Schraeg-rescue U3
 U 1 1 5D5C12B5
 P 4700 3950
 AR Path="/5D5C12B5" Ref="U3"  Part="1" 

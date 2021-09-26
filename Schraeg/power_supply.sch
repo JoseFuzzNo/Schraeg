@@ -255,48 +255,35 @@ Wire Wire Line
 Connection ~ 2150 3100
 Wire Wire Line
 	2150 3100 2350 3100
-$Comp
-L Schraeg-rescue:EURO_PWR_2x5-eurocad PWR_IN?
-U 1 1 5DA7E2A3
-P 1650 1500
-AR Path="/5DA7E2A3" Ref="PWR_IN?"  Part="1" 
-AR Path="/5DA7C710/5DA7E2A3" Ref="PWR_IN1"  Part="1" 
-F 0 "PWR_IN1" H 1650 1947 60  0000 C CNN
-F 1 "EURO_PWR_2x5" H 1650 1841 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1650 1500 60  0001 C CNN
-F 3 "" H 1650 1500 60  0000 C CNN
-	1    1650 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1200 1300 1100 1300
+	1600 1300 1500 1300
 Wire Wire Line
-	1100 1300 1100 1000
+	1500 1300 1500 1000
 Wire Wire Line
-	1100 1000 1650 1000
+	1500 1000 1850 1000
 Wire Wire Line
 	2200 1000 2200 1200
 Wire Wire Line
 	2200 1300 2100 1300
 Wire Wire Line
-	1200 1700 1100 1700
+	1600 1700 1500 1700
 Wire Wire Line
-	1100 1700 1100 1900
+	1500 1700 1500 1900
 Wire Wire Line
-	1100 1900 1650 1900
+	1500 1900 1850 1900
 Wire Wire Line
 	2200 1900 2200 1800
 Wire Wire Line
 	2200 1700 2100 1700
 Wire Wire Line
-	1200 1400 1200 1500
-Connection ~ 1200 1500
+	1600 1400 1600 1500
+Connection ~ 1600 1500
 Wire Wire Line
-	1200 1500 1200 1600
+	1600 1500 1600 1600
 Wire Wire Line
-	1200 1500 1000 1500
+	1600 1500 1400 1500
 Wire Wire Line
-	1000 1500 1000 1600
+	1400 1500 1400 1600
 Wire Wire Line
 	2100 1400 2100 1500
 Connection ~ 2100 1500
@@ -309,14 +296,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5DA7E2BE
-P 1000 1600
+P 1400 1600
 AR Path="/5DA7E2BE" Ref="#PWR?"  Part="1" 
 AR Path="/5DA7C710/5DA7E2BE" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 1000 1350 50  0001 C CNN
-F 1 "GND" H 1005 1427 50  0000 C CNN
-F 2 "" H 1000 1600 50  0001 C CNN
-F 3 "" H 1000 1600 50  0001 C CNN
-	1    1000 1600
+F 0 "#PWR030" H 1400 1350 50  0001 C CNN
+F 1 "GND" H 1405 1427 50  0000 C CNN
+F 2 "" H 1400 1600 50  0001 C CNN
+F 3 "" H 1400 1600 50  0001 C CNN
+	1    1400 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -335,14 +322,14 @@ $EndComp
 $Comp
 L Device:Polyfuse F?
 U 1 1 5DA7E2CA
-P 2550 1200
+P 2550 1800
 AR Path="/5DA7E2CA" Ref="F?"  Part="1" 
 AR Path="/5DA7C710/5DA7E2CA" Ref="F1"  Part="1" 
-F 0 "F1" V 2325 1200 50  0000 C CNN
-F 1 "Polyfuse" V 2416 1200 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1000 50  0001 L CNN
-F 3 "~" H 2550 1200 50  0001 C CNN
-	1    2550 1200
+F 0 "F1" V 2325 1800 50  0000 C CNN
+F 1 "Polyfuse" V 2416 1800 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1600 50  0001 L CNN
+F 3 "~" H 2550 1800 50  0001 C CNN
+	1    2550 1800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -361,14 +348,14 @@ $EndComp
 $Comp
 L Device:Polyfuse F?
 U 1 1 5DA7E2D8
-P 2550 1800
+P 2550 1200
 AR Path="/5DA7E2D8" Ref="F?"  Part="1" 
 AR Path="/5DA7C710/5DA7E2D8" Ref="F2"  Part="1" 
-F 0 "F2" V 2325 1800 50  0000 C CNN
-F 1 "Polyfuse" V 2416 1800 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1600 50  0001 L CNN
-F 3 "~" H 2550 1800 50  0001 C CNN
-	1    2550 1800
+F 0 "F2" V 2325 1200 50  0000 C CNN
+F 1 "Polyfuse" V 2416 1200 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1000 50  0001 L CNN
+F 3 "~" H 2550 1200 50  0001 C CNN
+	1    2550 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -462,28 +449,28 @@ Connection ~ 3200 1200
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5DA7E30D
-P 1650 1000
+P 1850 1000
 AR Path="/5DA7E30D" Ref="#FLG?"  Part="1" 
 AR Path="/5DA7C710/5DA7E30D" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 1650 1075 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 1174 50  0000 C CNN
-F 2 "" H 1650 1000 50  0001 C CNN
-F 3 "~" H 1650 1000 50  0001 C CNN
-	1    1650 1000
+F 0 "#FLG01" H 1850 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 1174 50  0000 C CNN
+F 2 "" H 1850 1000 50  0001 C CNN
+F 3 "~" H 1850 1000 50  0001 C CNN
+	1    1850 1000
 	1    0    0    -1  
 $EndComp
 Connection ~ 3500 1200
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5DA7E314
-P 1650 1900
+P 1850 1900
 AR Path="/5DA7E314" Ref="#FLG?"  Part="1" 
 AR Path="/5DA7C710/5DA7E314" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 1650 1975 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 2073 50  0000 C CNN
-F 2 "" H 1650 1900 50  0001 C CNN
-F 3 "~" H 1650 1900 50  0001 C CNN
-	1    1650 1900
+F 0 "#FLG02" H 1850 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 2073 50  0000 C CNN
+F 2 "" H 1850 1900 50  0001 C CNN
+F 3 "~" H 1850 1900 50  0001 C CNN
+	1    1850 1900
 	-1   0    0    1   
 $EndComp
 Connection ~ 3500 1900
@@ -658,7 +645,7 @@ F 3 "~" H 6850 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Schraeg-rescue:V2164-v2164 U3
+L Schraeg-rescue:V2164-v2164-Schraeg-rescue U3
 U 5 1 5D4D2924
 P 4150 1550
 AR Path="/5D4D2924" Ref="U3"  Part="5" 
@@ -814,12 +801,12 @@ Text GLabel 3700 3100 2    50   Input ~ 0
 -5V_REF
 Text GLabel 2350 3100 2    50   Input ~ 0
 5V_REF
-Connection ~ 1650 1000
+Connection ~ 1850 1000
 Wire Wire Line
-	1650 1000 2200 1000
-Connection ~ 1650 1900
+	1850 1000 2200 1000
+Connection ~ 1850 1900
 Wire Wire Line
-	1650 1900 2200 1900
+	1850 1900 2200 1900
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D53DC39
@@ -873,5 +860,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 1350 3150 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 1350 3350 50  0001 C CIN
 	1    1350 3350
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J8
+U 1 1 616E3FAB
+P 1800 1500
+F 0 "J8" H 1850 1075 50  0000 C CNN
+F 1 "POWER" H 1850 1166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1800 1500 50  0001 C CNN
+F 3 "~" H 1800 1500 50  0001 C CNN
+	1    1800 1500
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
