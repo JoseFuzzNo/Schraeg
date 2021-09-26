@@ -30,7 +30,7 @@ R44 R47,2,6.8K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,
 R37 R42 R45 R48 R49,5,100K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,
 RES_ADJ1,1,250K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,~,
 RV_SAW_OCTAVE1,1,100k,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,~,
-SW_DRIVE1 SW_RES_DIST1 SW_WOBBLE1,3,SW_SPDT,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,SPDT switches with 0.1” pin spacing. These Dailywells from Thonk work: https://www.thonk.co.uk/shop/sub-mini-toggle-switches/
+SW_DRIVE1 SW_RES_DIST1 SW_WOBBLE1,3,SW_SPDT,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,633-CS12ANW03
 U1 U2 U4 U5,4,TL074,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,http://www.ti.com/lit/ds/symlink/tl071.pdf,
 U3,1,V2164,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,,
 V_OCT_SCALE1,1,5K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,~,

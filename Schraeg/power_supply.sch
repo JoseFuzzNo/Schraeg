@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Schraeg-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -257,7 +256,7 @@ Connection ~ 2150 3100
 Wire Wire Line
 	2150 3100 2350 3100
 $Comp
-L eurocad:EURO_PWR_2x5 PWR_IN?
+L Schraeg-rescue:EURO_PWR_2x5-eurocad PWR_IN?
 U 1 1 5DA7E2A3
 P 1650 1500
 AR Path="/5DA7E2A3" Ref="PWR_IN?"  Part="1" 
@@ -659,9 +658,11 @@ F 3 "~" H 6850 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L v2164:V2164 U3
+L Schraeg-rescue:V2164-v2164 U3
 U 5 1 5D4D2924
 P 4150 1550
+AR Path="/5D4D2924" Ref="U3"  Part="5" 
+AR Path="/5DA7C710/5D4D2924" Ref="U3"  Part="5" 
 F 0 "U3" H 4256 1925 50  0000 C CNN
 F 1 "V2164" H 4256 1834 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4150 1550 50  0001 C CNN

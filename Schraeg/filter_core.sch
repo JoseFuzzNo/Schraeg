@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Schraeg-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -132,7 +131,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6050 5100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L v2164:V2164 U?
+L Schraeg-rescue:V2164-v2164 U?
 U 3 1 5D579004
 P 4900 3200
 AR Path="/5D579004" Ref="U?"  Part="1" 
@@ -145,7 +144,7 @@ F 3 "" H 4900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L v2164:V2164 U?
+L Schraeg-rescue:V2164-v2164 U?
 U 4 1 5D57900B
 P 6900 3300
 AR Path="/5D57900B" Ref="U?"  Part="1" 
@@ -158,7 +157,7 @@ F 3 "" H 6900 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L v2164:V2164 U?
+L Schraeg-rescue:V2164-v2164 U?
 U 2 1 5D579012
 P 4100 4700
 AR Path="/5D579012" Ref="U?"  Part="1" 
