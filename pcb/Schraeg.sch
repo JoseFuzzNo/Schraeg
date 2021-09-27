@@ -577,117 +577,88 @@ Wire Wire Line
 Wire Wire Line
 	6400 2200 7400 2200
 Wire Wire Line
-	1450 5500 1550 5500
+	1550 5900 1650 5900
 $Comp
 L power:GND #PWR01
 U 1 1 5D65C05A
-P 1550 5600
-F 0 "#PWR01" H 1550 5350 50  0001 C CNN
-F 1 "GND" H 1555 5427 50  0000 C CNN
-F 2 "" H 1550 5600 50  0001 C CNN
-F 3 "" H 1550 5600 50  0001 C CNN
-	1    1550 5600
+P 1650 6000
+F 0 "#PWR01" H 1650 5750 50  0001 C CNN
+F 1 "GND" H 1655 5827 50  0000 C CNN
+F 2 "" H 1650 6000 50  0001 C CNN
+F 3 "" H 1650 6000 50  0001 C CNN
+	1    1650 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 5500 1550 5600
+	1650 5900 1650 6000
 $Comp
 L Amplifier_Operational:TL074 U1
 U 2 1 5D65C061
-P 2350 6300
-F 0 "U1" H 2400 6100 50  0000 C CNN
-F 1 "TL074" H 2450 6500 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 6400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2400 6500 50  0001 C CNN
-	2    2350 6300
+P 2900 6300
+F 0 "U1" H 2950 6100 50  0000 C CNN
+F 1 "TL074" H 3000 6500 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2850 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2950 6500 50  0001 C CNN
+	2    2900 6300
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_POT FM_ATTV1
-U 1 1 5D65C068
-P 2600 5550
-F 0 "FM_ATTV1" V 2486 5550 50  0000 C CNN
-F 1 "100k" V 2395 5550 50  0000 C CNN
-F 2 "barullo_eurorack:Potentiometer_Trimmer_9mm_Vertical" H 2600 5550 50  0001 C CNN
-F 3 "~" H 2600 5550 50  0001 C CNN
-	1    2600 5550
-	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5D65C06F
-P 2400 5950
-F 0 "R2" V 2193 5950 50  0000 C CNN
-F 1 "100k" V 2284 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 5950 50  0001 C CNN
-F 3 "~" H 2400 5950 50  0001 C CNN
-	1    2400 5950
+P 2950 5950
+F 0 "R2" V 2743 5950 50  0000 C CNN
+F 1 "47K" V 2834 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2880 5950 50  0001 C CNN
+F 3 "~" H 2950 5950 50  0001 C CNN
+	1    2950 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5D65C076
-P 3000 6300
-F 0 "R5" V 2793 6300 50  0000 C CNN
-F 1 "100k" V 2884 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 6300 50  0001 C CNN
-F 3 "~" H 3000 6300 50  0001 C CNN
-	1    3000 6300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1950 5550 1950 5950
-Wire Wire Line
-	1950 6200 2050 6200
-Wire Wire Line
-	2050 6400 1950 6400
-Wire Wire Line
-	1950 6400 1950 6500
-$Comp
-L power:GND #PWR04
-U 1 1 5D65C084
-P 1950 6500
-F 0 "#PWR04" H 1950 6250 50  0001 C CNN
-F 1 "GND" H 1955 6327 50  0000 C CNN
-F 2 "" H 1950 6500 50  0001 C CNN
-F 3 "" H 1950 6500 50  0001 C CNN
-	1    1950 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 5950 1950 5950
-Connection ~ 1950 5950
-Wire Wire Line
-	1950 5950 1950 6200
-Wire Wire Line
-	2550 5950 2750 5950
-Wire Wire Line
-	2750 5950 2750 6300
-Wire Wire Line
-	2750 6300 2650 6300
-Wire Wire Line
-	2750 6300 2850 6300
-Connection ~ 2750 6300
-Wire Wire Line
-	2750 5550 3250 5550
-Wire Wire Line
-	3250 5550 3250 6300
-Wire Wire Line
-	3250 6300 3150 6300
-$Comp
-L Device:R R8
-U 1 1 5D65C095
 P 3500 6300
-F 0 "R8" V 3293 6300 50  0000 C CNN
-F 1 "100k" V 3384 6300 50  0000 C CNN
+F 0 "R5" V 3293 6300 50  0000 C CNN
+F 1 "47K" V 3384 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3430 6300 50  0001 C CNN
 F 3 "~" H 3500 6300 50  0001 C CNN
 	1    3500 6300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 6300 3350 6300
-Connection ~ 3250 6300
+	2500 6200 2600 6200
+Wire Wire Line
+	2600 6400 2500 6400
+Wire Wire Line
+	2500 6400 2500 6500
+$Comp
+L power:GND #PWR04
+U 1 1 5D65C084
+P 2500 6500
+F 0 "#PWR04" H 2500 6250 50  0001 C CNN
+F 1 "GND" H 2505 6327 50  0000 C CNN
+F 2 "" H 2500 6500 50  0001 C CNN
+F 3 "" H 2500 6500 50  0001 C CNN
+	1    2500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5950 2500 5950
+Wire Wire Line
+	2500 5950 2500 6200
+Wire Wire Line
+	3100 5950 3300 5950
+Wire Wire Line
+	3300 5950 3300 6300
+Wire Wire Line
+	3300 6300 3200 6300
+Wire Wire Line
+	3300 6300 3350 6300
+Connection ~ 3300 6300
+Wire Wire Line
+	3800 5550 3800 6100
+Wire Wire Line
+	3800 6300 3650 6300
+Connection ~ 3800 6300
 $Comp
 L Device:R R9
 U 1 1 5D6612C8
@@ -758,8 +729,6 @@ F 3 "" H 2600 7550 50  0001 C CNN
 	1    2600 7550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3650 6300 3800 6300
 Wire Wire Line
 	3800 6300 3800 6600
 Wire Wire Line
@@ -872,7 +841,6 @@ Wire Wire Line
 	4500 6100 4300 6100
 Wire Wire Line
 	4000 6100 3800 6100
-Connection ~ 3800 6300
 $Comp
 L Switch:SW_SPDT SW_RES_DIST1
 U 1 1 5D6C4E84
@@ -957,7 +925,7 @@ $EndComp
 Wire Wire Line
 	3650 4900 3800 4900
 Wire Wire Line
-	3800 4900 3800 6100
+	3800 4900 3800 5550
 Wire Wire Line
 	3250 4900 3300 4900
 Wire Wire Line
@@ -1146,7 +1114,7 @@ Wire Wire Line
 	8800 1900 8800 2400
 Wire Wire Line
 	8800 2400 9000 2400
-Text GLabel 1500 5300 2    50   Input ~ 0
+Text GLabel 1650 5650 1    50   Input ~ 0
 0.16V_REF
 Text GLabel 3900 3950 0    50   Input ~ 0
 -5V_REF
@@ -1181,20 +1149,16 @@ Wire Wire Line
 $Comp
 L Device:R R48
 U 1 1 600CE324
-P 2100 5400
-F 0 "R48" V 2200 5400 50  0000 C CNN
-F 1 "100K" V 2000 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2030 5400 50  0001 C CNN
-F 3 "~" H 2100 5400 50  0001 C CNN
-	1    2100 5400
+P 1850 5800
+F 0 "R48" V 1950 5800 50  0000 C CNN
+F 1 "47K" V 1750 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1780 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1950 5550 2450 5550
-Wire Wire Line
-	2250 5400 2600 5400
-Wire Wire Line
-	1950 5400 1450 5400
+	1700 5800 1550 5800
 $Comp
 L Switch:SW_SPDT SW_DRIVE1
 U 1 1 5D45C353
@@ -1278,16 +1242,14 @@ Connection ~ 4050 1350
 $Comp
 L Connector:AudioJack2_SwitchT J4
 U 1 1 6176575D
-P 1250 5400
-F 0 "J4" H 1070 5333 50  0000 R CNN
-F 1 "PJ398SM" H 1070 5424 50  0000 R CNN
-F 2 "barullo_eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1250 5400 50  0001 C CNN
-F 3 "~" H 1250 5400 50  0001 C CNN
-	1    1250 5400
+P 1350 5800
+F 0 "J4" H 1170 5733 50  0000 R CNN
+F 1 "PJ398SM" H 1170 5824 50  0000 R CNN
+F 2 "barullo_eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1350 5800 50  0001 C CNN
+F 3 "~" H 1350 5800 50  0001 C CNN
+	1    1350 5800
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1450 5300 1500 5300
 $Comp
 L Connector:AudioJack2_SwitchT J5
 U 1 1 61790B67
@@ -1319,4 +1281,37 @@ F 3 "" H 4700 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 4250 6000 4250
+$Comp
+L Device:R_POT FM_ATTV1
+U 1 1 5D65C068
+P 2200 5800
+F 0 "FM_ATTV1" V 2086 5800 50  0000 C CNN
+F 1 "100KB" V 1995 5800 50  0000 C CNN
+F 2 "barullo_eurorack:Potentiometer_Trimmer_9mm_Vertical" H 2200 5800 50  0001 C CNN
+F 3 "~" H 2200 5800 50  0001 C CNN
+	1    2200 5800
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3800 5550
+Wire Wire Line
+	2200 5950 2200 6200
+Wire Wire Line
+	2200 6200 2500 6200
+Connection ~ 2500 6200
+Wire Wire Line
+	2200 5650 2200 5550
+Wire Wire Line
+	2200 5550 3800 5550
+Wire Wire Line
+	2000 5800 2050 5800
+Wire Wire Line
+	1650 5650 1650 5700
+Wire Wire Line
+	1550 5700 1650 5700
+Text Notes 850  5700 0    80   ~ 16
+FM
+Text Notes 950  6700 0    80   ~ 16
+V/OCT
+Text Notes 950  1450 0    80   ~ 16
+RES
 $EndSCHEMATC
