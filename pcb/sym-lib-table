@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Schraeg)(type Legacy)(uri ${KIPRJMOD}/Schraeg.lib)(options "")(descr ""))
+  (lib (name schraeg)(type Legacy)(uri ${KIPRJMOD}/schraeg.lib)(options "")(descr ""))
 )

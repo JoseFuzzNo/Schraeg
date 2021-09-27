@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name Schraeg)(type KiCad)(uri ${KIPRJMOD}/Schraeg.pretty)(options "")(descr ""))
+  (lib (name schraeg)(type KiCad)(uri ${KIPRJMOD}/schraeg.pretty)(options "")(descr ""))
 )

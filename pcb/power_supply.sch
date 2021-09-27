@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
+Title "Power Supply"
+Date "2021-09-27"
+Rev "0.2.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -860,7 +860,7 @@ F 3 "~" H 1800 1500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Schraeg:V2164 U3
+L schraeg:V2164 U3
 U 5 1 618650C5
 P 4200 1550
 F 0 "U3" H 4200 1300 50  0000 C CNN

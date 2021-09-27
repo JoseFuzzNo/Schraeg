@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
+Title "Filter core"
+Date "2021-09-27"
+Rev "0.2.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -901,7 +901,7 @@ Wire Wire Line
 	5900 1400 5900 2500
 Connection ~ 5900 2500
 $Comp
-L Schraeg:V2164 U3
+L schraeg:V2164 U3
 U 2 1 617BFA4E
 P 4150 4700
 F 0 "U3" H 4150 4975 50  0000 C CNN
@@ -912,7 +912,7 @@ F 3 "" H 4050 4800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Schraeg:V2164 U3
+L schraeg:V2164 U3
 U 3 1 617F8AC5
 P 4950 3200
 F 0 "U3" H 4950 3475 50  0000 C CNN
@@ -925,7 +925,7 @@ $EndComp
 Wire Wire Line
 	4650 3200 4600 3200
 $Comp
-L Schraeg:V2164 U3
+L schraeg:V2164 U3
 U 4 1 61820A73
 P 6950 3300
 F 0 "U3" H 6950 3575 50  0000 C CNN

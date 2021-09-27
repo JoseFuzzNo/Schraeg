@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Schräg"
-Date "2019-08-04"
-Rev "1"
+Date "2021-09-27"
+Rev "0.2.2"
 Comp ""
 Comment1 "8HP Remix of the Bastl Cinnamon filter with CV control over resonance"
 Comment2 ""
@@ -1123,7 +1123,7 @@ Wire Wire Line
 	1700 6750 1650 6750
 Connection ~ 1700 6950
 $Comp
-L Schraeg:V2164 U3
+L schraeg:V2164 U3
 U 1 1 6177084C
 P 4800 3950
 F 0 "U3" H 4800 4318 50  0000 C CNN

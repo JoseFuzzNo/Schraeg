@@ -273,7 +273,7 @@
     (add_net "Net-(U3-Pad1)")
   )
 
-  (module Schraeg:silkF (layer F.Cu) (tedit 0) (tstamp 61537C76)
+  (module schraeg:silkF (layer F.Cu) (tedit 0) (tstamp 61537C76)
     (at 20.25 64.25)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -3710,7 +3710,7 @@
     )
   )
 
-  (module Schraeg:copper (layer F.Cu) (tedit 0) (tstamp 61551207)
+  (module schraeg:copper (layer F.Cu) (tedit 0) (tstamp 61551207)
     (at 20.25 64.25)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -4140,7 +4140,7 @@
       (xy -4.456904 59.45542) (xy -4.38831 59.449785) (xy -4.334934 59.450191)) (layer F.Cu) (width 0.01))
   )
 
-  (module Schraeg:maskF (layer F.Cu) (tedit 0) (tstamp 61550EE4)
+  (module schraeg:maskF (layer F.Cu) (tedit 0) (tstamp 61550EE4)
     (at 20.25 64.25)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -8552,7 +8552,7 @@
     )
   )
 
-  (module "Schraeg:Schraeg Panel Graphics Inkscape" (layer F.Cu) (tedit 0) (tstamp 5D4EB555)
+  (module "schraeg:schraeg Panel Graphics Inkscape" (layer F.Cu) (tedit 0) (tstamp 5D4EB555)
     (at 106.9 70.7)
     (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -8562,7 +8562,7 @@
     )
   )
 
-  (module "Schraeg:Schraeg Panel Graphics Inkscape" (layer F.Cu) (tedit 0) (tstamp 5D4EB55C)
+  (module "schraeg:schraeg Panel Graphics Inkscape" (layer F.Cu) (tedit 0) (tstamp 5D4EB55C)
     (at 106.6 25.9)
     (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
