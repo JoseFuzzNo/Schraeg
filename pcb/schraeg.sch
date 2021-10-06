@@ -5,9 +5,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Schräg"
-Date "2021-09-27"
-Rev "0.2.2"
-Comp ""
+Date "2021-10-06"
+Rev "0.3.0"
+Comp "F1N05"
 Comment1 "8HP Remix of the Bastl Cinnamon filter with CV control over resonance"
 Comment2 ""
 Comment3 ""
