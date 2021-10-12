@@ -2984,20 +2984,6 @@ F 4 "652-MF-NSMF050-2" H 2050 9675 50  0001 C CNN "Ref. Mouser"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Diode_Bridge:MB2S D5
-U 1 1 61F8EAAD
-P 2650 9975
-AR Path="/61F8EAAD" Ref="D5"  Part="1" 
-AR Path="/5DA7C710/61F8EAAD" Ref="D?"  Part="1" 
-F 0 "D5" H 2750 10175 50  0000 L CNN
-F 1 "MB2S" H 2650 9975 40  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-269AA" H 2800 10100 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/88661/mb2s.pdf" H 2650 9975 50  0001 C CNN
-F 4 "512-MB2S" H 2650 9975 50  0001 C CNN "Ref. Mouser"
-	1    2650 9975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Polyfuse F1
 U 1 1 61F8EAA6
 P 2050 10275
@@ -3203,4 +3189,16 @@ Wire Wire Line
 Connection ~ 5675 2675
 Wire Wire Line
 	5675 2675 7125 2675
+$Comp
+L Device:D_Bridge_+-AA D5
+U 1 1 62454E4D
+P 2650 9975
+F 0 "D5" H 2800 10150 50  0000 L CNN
+F 1 "MB1S" H 2650 9975 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x4.3mm_P2.54mm" H 2650 9975 50  0001 C CNN
+F 3 "~" H 2650 9975 50  0001 C CNN
+F 4 "512-MB1S" H 2650 9975 50  0001 C CNN "Ref. Mouser"
+	1    2650 9975
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

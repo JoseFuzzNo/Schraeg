@@ -13,7 +13,7 @@ This is a rework of the original [Schräg](https://github.com/barnabywalters/Sch
 * [Schematic](pcb/schraeg.pdf)
 * [Gerbers](gerbers/schraeg-gerbers-0.3.0.zip)
 * [BOM](bom/schraeg_BOM.xlsx)
-* [Schräg on ModularGrid](hhttps://www.modulargrid.net/e/other-unknown-f1no5-schraeg)
+* [Schräg on ModularGrid](https://www.modulargrid.net/e/other-unknown-f1no5-schraeg)
 
 ## Features
 
