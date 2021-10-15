@@ -1043,10 +1043,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="111.60334"
-     inkscape:cy="220.37652"
+     inkscape:cx="283.9545"
+     inkscape:cy="261.36288"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-bbox="true"
@@ -13892,7 +13892,8 @@
      id="layer6"
      inkscape:label="copper"
      style="display:inline"
-     transform="translate(-163.956,-85.899784)">
+     transform="translate(-163.956,-85.899784)"
+     sodipodi:insensitive="true">
     <g
        id="g23932">
       <g
@@ -15315,7 +15316,7 @@
          x="194.10867"
          id="tspan5284-9-6-2"
          sodipodi:role="line"
-         style="letter-spacing:0.193175px;fill:#ffffff;stroke:#ffffff;stroke-width:0.0417782;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">REV 0.3.0</tspan></text>
+         style="letter-spacing:0.193175px;fill:#ffffff;stroke:#ffffff;stroke-width:0.0417782;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">REV 0.3.1</tspan></text>
     <text
        id="text24036"
        y="-268.80844"
@@ -15352,6 +15353,18 @@
          id="tspan24034-4-7"
          sodipodi:role="line"
          style="font-size:2.11667px;letter-spacing:0.237369px;fill:#ffffff;stroke:#ffffff;stroke-width:0.051336;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">RES ADJ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96846px;line-height:1;font-family:'Heading Smallcase Pro Trial';-inkscape-font-specification:'Heading Smallcase Pro Trial';text-align:center;letter-spacing:0.446531px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.133828;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="188.10701"
+       y="-265.81955"
+       id="text4291"
+       transform="matrix(0,1.0050323,-0.9949929,0,0,0)"><tspan
+         sodipodi:role="line"
+         x="188.33028"
+         y="-265.81955"
+         style="text-align:center;letter-spacing:0.446531px;text-anchor:middle;fill:#ffffff;stroke:#ffffff;stroke-width:0.133828;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan4289">CC BY-SA</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
